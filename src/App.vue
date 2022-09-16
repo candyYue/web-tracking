@@ -5,7 +5,8 @@
 
 <script>
 // import TrackinPage from './components/tracking/TrackinPage01.vue'
-import ThreeCube from './components/three/ThreeCube.vue';
+import ThreeCube from './components/shaderCube/ShaderCube.vue';
+// import ThreeCube from './components/SimpleCube.vue';
 export default {
   name: 'App',
   components: {

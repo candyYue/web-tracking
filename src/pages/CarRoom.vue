@@ -31,7 +31,7 @@ const init = ()=>{
     gridHelper.position.y = -1
     scene.add( gridHelper );
 
-    light = new THREE.AmbientLight(0xffffff)
+    light = new THREE.AmbientLight(0x0000ff)
     scene.add(light)
 
     renderer = new THREE.WebGLRenderer({
